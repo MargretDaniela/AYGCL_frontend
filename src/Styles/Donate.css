@@ -1,0 +1,10 @@
+.donate-form-section {
+  background-image: url('../Components/Images/First\ family.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.form-box {
+  background-color: rgba(0, 0, 0, 0.75); /* Black box with opacity */
+}

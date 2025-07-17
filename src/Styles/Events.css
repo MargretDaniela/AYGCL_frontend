@@ -1,0 +1,28 @@
+.event-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.event-btn {
+  background-color: #992525;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.event-btn:hover {
+  background-color: #7a1e1e;
+  color: #fff;
+}

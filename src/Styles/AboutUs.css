@@ -1,0 +1,66 @@
+.no-top-margin {
+  margin-top: 0 !important;
+  padding-top: 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.story-top-margin {
+  margin-top: 120px; /* adjust this if you want the whole section lower */
+}
+
+/* 🎯 Vision/Mission/Goals spacing */
+.vision-mission-goals {
+  margin-top: 0.5rem;        /* reduced space above the cards */
+  margin-bottom: 3rem;     /* good spacing below the cards */
+  padding-top: 1rem;       /* inner spacing */
+  gap: 9rem;             /* spacing between the cards */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 🎯 Optional button group spacing */
+.aboutus-buttons {
+  margin-bottom: 3rem;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* 📱 Responsive adjustments */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.75rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .vision-mission-goals {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#read{
+  gap: 3rem;
+}
+.hover-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Default shadow */
+}
+
+.hover-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* Larger, smoother shadow */
+  border-color: #dc3545; /* Bootstrap red, optional */
+}

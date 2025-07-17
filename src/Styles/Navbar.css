@@ -1,0 +1,194 @@
+/* ROTATING HEART */
+@keyframes rotateHeart {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-heart {
+  display: inline-block;
+  animation: rotateHeart 2s linear infinite;
+}
+
+/* ===== Header (Logo + Donate) ===== */
+.header-bar {
+  background-color: white;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  height: 80px;
+}
+
+/* ===== Navigation Section ===== */
+.nav-links-bar {
+  background-color: #f8e6e9;
+  border-bottom: 4px solid #800000;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  position: fixed; /* Changed to fixed */
+  top: 80px; /* directly below the header */
+  left: 0;
+  right: 0;
+  z-index: 1040; /* Ensure it stays above other content */
+  margin: 0;
+  padding: 0;
+  height: 60px;
+}
+.donate-btn {
+  background-color: #800000;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.donate-btn:hover {
+  background-color: #a00000;
+}
+
+.main-nav {
+  gap: 30px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-item-with-dropdown {
+  position: relative;
+}
+
+.nav-item-with-dropdown .nav-link {
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: color 0.2s ease;
+}
+
+.nav-item-with-dropdown .nav-link:hover {
+  color: #800000;
+}
+
+/* Stylish Dropdowns */
+.custom-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 220px;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nav-item-with-dropdown:hover .custom-dropdown {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 12px 20px;
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  transition: background 0.2s ease, padding-left 0.2s ease;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-item:hover {
+  background-color: #fce6e9;
+  padding-left: 25px;
+  color: #800000;
+}
+.custom-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 220px;
+  padding: 10px 0;
+  animation: fadeIn 0.3s ease-in-out;
+  transition: all 0.3s ease;
+}
+
+.nav-item-with-dropdown:hover .custom-dropdown {
+  display: block;
+}
+
+/* Style individual dropdown links */
+.custom-dropdown .dropdown-item {
+  padding: 14px 24px;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #eee;
+  transition: background 0.2s ease, padding-left 0.2s ease;
+}
+
+/* Last item should not have a bottom border */
+.custom-dropdown .dropdown-item:last-child {
+  border-bottom: none;
+}
+
+/* Hover effect for dropdown links */
+.custom-dropdown .dropdown-item:hover {
+  background-color: #fce6e9;
+  color: #800000;
+  padding-left: 30px;
+}
+
+.back-home-btn {
+  font-weight: bold;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.back-home-btn:hover {
+  background-color: #f07f7f;
+  color: white;
+  text-decoration: none;
+}
+#services {
+  scroll-margin-top: 100px; 
+}
