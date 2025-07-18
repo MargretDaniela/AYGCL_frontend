@@ -9,7 +9,7 @@ const Events = () => {
   return (
     <div id="events" style={{ marginTop: '120px' }}>
 
-      {/* --- Header --- */}
+      {/*Header*/}
       <section className="text-center py-5 bg-light">
         <div className="container">
           <h2 className="fw-bold mb-3">Upcoming Events</h2>
@@ -20,7 +20,7 @@ const Events = () => {
         </div>
       </section>
 
-      {/* --- Event Cards --- */}
+      {/*Event Cards*/}
       <section className="container py-5">
         <div className="row g-4">
 

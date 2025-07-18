@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <div id="blog" style={{ marginTop: '120px' }}>
 
-      {/* --- Blog Hero Header --- */}
+      {/* Blog Hero Header */}
       <section className="text-center py-5 bg-light">
         <div className="container">
           <h2 className="fw-bold mb-3">Our Stories & Insights</h2>
@@ -20,7 +20,7 @@ const Blog = () => {
         </div>
       </section>
 
-      {/* --- Blog Cards Section --- */}
+      {/* Blog Cards Section  */}
       <section className="container py-5">
         <div className="row g-4">
 

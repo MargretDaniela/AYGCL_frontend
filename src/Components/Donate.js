@@ -6,7 +6,7 @@ const Donate = () => {
   return (
     <div id='donate' style={{ marginTop: '120px' }}>
 
-      {/* --- Section 1: Emotional Appeal --- */}
+      {/* Emotional Appeal*/}
       <section className="text-center py-5 bg-light">
         <div className="container">
           <h2 className="mb-4 fw-bold">Your Support Makes a Difference</h2>
@@ -17,7 +17,7 @@ const Donate = () => {
         </div>
       </section>
 
-      {/* --- Section 2: Form Over Background Image --- */}
+      {/*Form Over Background Image */}
       <section className="donate-form-section d-flex align-items-center">
         <div className="container">
           <div className="row justify-content-center">
@@ -78,7 +78,6 @@ const Donate = () => {
           </div>
         </div>
       </section>
-      {/* --- Footer with margin --- */}
         <Footer />
     </div>
   );

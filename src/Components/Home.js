@@ -25,7 +25,7 @@ const Home = () => {
 
   return (
     <div>
-      {/* Hero Section with Rotating Background Images */}
+      {/*Section with Rotating Background Images */}
       <div className="position-relative w-100 vh-100 overflow-hidden mt-5 pt-4">
         <img
           src={images[currentIndex]}
@@ -36,7 +36,7 @@ const Home = () => {
         {/* Overlay */}
         <div className="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
 
-        {/* Hero Text */}
+        {/*Text */}
         <div className="position-absolute top-50 start-50 translate-middle text-white text-center p-4 z-2">
           <h2>
             SUPPORT <span className="text-danger fw-bold fst-italic">YOUNG LIVES</span>
@@ -56,8 +56,6 @@ const Home = () => {
           </Link>
         </div>
       </div>
-
-      {/* About Us Section */}
       <AboutUs />
       <Impact/>
       <Services/>

@@ -9,14 +9,14 @@ const CustomNavbar = () => {
 
   return (
     <>
-      {/* Header Section: Logo + Home Button + Donate */}
+      {/*Logo + Home Button + Donate */}
       <div className="header-bar d-flex justify-content-between align-items-center px-4">
         {/* Left side: Logo */}
         <Link to="/">
           <img src={logo} alt="Logo" height="60" />
         </Link>
 
-        {/* Center: Home button */}
+        {/*Home button */}
         <div className="mx-auto">
           <Link to="/" className="btn btn-outline-danger btn-sm back-home-btn" style={{
             
@@ -25,7 +25,7 @@ const CustomNavbar = () => {
           </Link>
         </div>
 
-        {/* Right side: Donate button */}
+        {/*Donate button */}
         <Link to="/donate" className="donate-btn">
           DONATE <span className="rotating-heart">🤍</span>
         </Link>
@@ -53,13 +53,13 @@ const CustomNavbar = () => {
           />
           <Navbar.Collapse id="responsive-navbar-nav" className="navhead">
             <Nav className="main-nav flex-column flex-lg-row w-100 justify-content-center">
-              {/* Dropdown: Who we are */}
+              {/*Who we are */}
               <div className="nav-item-with-dropdown">
                 <span className="nav-link">Who we are</span>
                 <div className="custom-dropdown">
                   <Link to="/about#story" className="dropdown-item">Our Story</Link>
-                  <Link to="/" className="dropdown-item">Our Team</Link>
-                  <Link to="/" className="dropdown-item">Our Mission</Link>
+                  <Link to="/team#team" className="dropdown-item">Our Team</Link>
+                  <Link to="/mission#mission" className="dropdown-item">Our Mission</Link>
                 </div>
               </div>
 
@@ -68,8 +68,8 @@ const CustomNavbar = () => {
                 <span className="nav-link">What we offer</span>
                 <div className="custom-dropdown">
                   <Link to="/services#services" className="dropdown-item">Services</Link>
-                  <Link to="/" className="dropdown-item">Workshops</Link>
-                  <Link to="/" className="dropdown-item">Training</Link>
+                  <Link to="/workshops#workshops" className="dropdown-item">Workshops</Link>
+                  <Link to="/training#training" className="dropdown-item">Training</Link>
                 </div>
               </div>
 

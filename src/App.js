@@ -10,6 +10,12 @@ import Programs from './Components/Programs'
 import Donate from './Components/Donate';
 import Blog from './Components/Blog';
 import Events from './Components/Events';
+import Training from './Components/Training';
+import Workshops from './Components/Workshops';
+import Team from './Components/Team';
+import Mission from './Components/Mission';
+import Vision from './Components/Vision';
+import Goals from './Components/Goals';
 
 function App() {
   return (
@@ -25,6 +31,12 @@ function App() {
         <Route path="/donate" element={<Donate />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/training" element={<Training/>} />
+        <Route path="/workshops" element={<Workshops/>} />
+        <Route path="/team" element={<Team/>} />
+        <Route path="/mission" element={<Mission/>} />
+        <Route path="/vision" element={<Vision/>} />
+         <Route path="goals" element={<Goals/>} />
       </Routes>
     </Router>
   );

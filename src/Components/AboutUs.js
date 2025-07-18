@@ -36,7 +36,7 @@ const AboutUs = () => {
               and purpose-driven lives thats create an impact by having dreamers.
             </p>
           </div>
-          <a href="/"  className="btn btn-danger mt-auto"
+          <a href="/vision#vision"  className="btn btn-danger mt-auto"
           style={{ fontSize: '0.75rem', marginLeft:'40px', marginRight:'40px'}}>READ MORE</a>
         </div>
         {/* Mission */}
@@ -49,7 +49,7 @@ const AboutUs = () => {
               that can create a bright future.
             </p>
           </div>
-           <a href="/"  className="btn btn-danger mt-auto"
+           <a href="/mission#mission"  className="btn btn-danger mt-auto"
           style={{ fontSize: '0.75rem', marginLeft:'40px', marginRight:'40px'}}>READ MORE</a>
         </div>
 
@@ -64,7 +64,7 @@ const AboutUs = () => {
               <li>Engage youth with hands on skills.</li>
             </ul>
           </div>
-            <a href="/"  className="btn btn-danger mt-auto pt-1.5"
+            <a href="/goals#goals"  className="btn btn-danger mt-auto pt-1.5"
           style={{ fontSize: '0.75rem', marginLeft:'58px', marginRight:'58px'}}>READ MORE</a>
         </div>
       </div>

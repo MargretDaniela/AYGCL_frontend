@@ -1,5 +1,5 @@
 .custom-send-btn {
-  background-color: #992525 !important; /* Force override Bootstrap */
+  background-color: #992525 !important;
   color: white !important;
   border: none;
   border-radius: 3px;
@@ -9,7 +9,7 @@
     margin-left: 25px;
 }
 .custom-subscribe-btn{
-  background-color: #992525 !important; /* Force override Bootstrap */
+  background-color: #992525 !important;
   color: white !important;
   border: none;
   margin-top: 50px;

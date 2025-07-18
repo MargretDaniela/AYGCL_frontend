@@ -1,4 +1,4 @@
-/* ROTATING HEART */
+
 @keyframes rotateHeart {
   0% {
     transform: rotate(0deg);
@@ -13,7 +13,7 @@
   animation: rotateHeart 2s linear infinite;
 }
 
-/* ===== Header (Logo + Donate) ===== */
+
 .header-bar {
   background-color: white;
   padding: 10px 0;
@@ -29,16 +29,16 @@
   height: 80px;
 }
 
-/* ===== Navigation Section ===== */
+
 .nav-links-bar {
   background-color: #f8e6e9;
   border-bottom: 4px solid #800000;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
-  position: fixed; /* Changed to fixed */
-  top: 80px; /* directly below the header */
+  position: fixed; 
+  top: 80px;
   left: 0;
   right: 0;
-  z-index: 1040; /* Ensure it stays above other content */
+  z-index: 1040;
   margin: 0;
   padding: 0;
   height: 60px;
@@ -83,7 +83,6 @@
   color: #800000;
 }
 
-/* Stylish Dropdowns */
 .custom-dropdown {
   display: none;
   position: absolute;
@@ -152,7 +151,6 @@
   display: block;
 }
 
-/* Style individual dropdown links */
 .custom-dropdown .dropdown-item {
   padding: 14px 24px;
   font-weight: 500;
@@ -163,12 +161,10 @@
   transition: background 0.2s ease, padding-left 0.2s ease;
 }
 
-/* Last item should not have a bottom border */
 .custom-dropdown .dropdown-item:last-child {
   border-bottom: none;
 }
 
-/* Hover effect for dropdown links */
 .custom-dropdown .dropdown-item:hover {
   background-color: #fce6e9;
   color: #800000;
