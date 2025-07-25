@@ -13,7 +13,7 @@ import Footer from './Footer';
 const Team = () => {
   const renderMemberCard = (member) => (
     <div className="col-md-6 col-lg-3" id='team'>
-      <div className="card h-100 shadow rounded-4 border-0 text-center p-3">
+      <div className="card h-100 shadow rounded-4 border-0 text-center p-3" style={{marginLeft:'30px', marginRight:'10px'}}>
         <img
           src={member.image}
           className="card-img-top rounded-circle mx-auto mt-3"

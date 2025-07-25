@@ -1,0 +1,8 @@
+.nav-link.active {
+  background-color: #7b1e1e;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.sidebar {
+  min-width: 250px;
+}

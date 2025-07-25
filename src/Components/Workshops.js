@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import workshop1 from './Images/Gathered youth.jpg';
 import workshop2 from './Images/Gal on mic.jpg';
 import workshop3 from './Images/youth joint.jpg';
@@ -9,7 +8,7 @@ import Footer from './Footer';
 
 const Workshops = () => {
   return (
-    <div className="" style={{ marginTop: '120px' }} id='workshops'>
+    <div className="" style={{ marginTop: '150px' }} id='workshops'>
       <div className="text-center mb-5">
         <h2 className="fw-bold text-uppercase" style={{ color: '#992525' }}>Community Workshops</h2>
         <p className="text-muted">Interactive sessions that inspire, educate, and empower our communities.</p>
@@ -17,7 +16,7 @@ const Workshops = () => {
 
       <div className="row g-4">
         {/* Workshop 1 */}
-        <div className="col-md-6 col-lg-3">
+        <div className="col-md-6 col-lg-3" style={{marginLeft:'150px'}}>
           <div className="card h-100 shadow-sm border-0">
             <img src={workshop1} className="card-img-top" alt="Mentorship Workshop" />
             <div className="card-body">
@@ -28,7 +27,7 @@ const Workshops = () => {
         </div>
 
         {/* Workshop 2 */}
-        <div className="col-md-6 col-lg-3">
+        <div className="col-md-6 col-lg-3" style={{marginLeft:'50px'}}>
           <div className="card h-100 shadow-sm border-0">
             <img src={workshop2} className="card-img-top" alt="Youth Dialogue" />
             <div className="card-body">
@@ -39,7 +38,7 @@ const Workshops = () => {
         </div>
 
         {/* Workshop 3 */}
-        <div className="col-md-6 col-lg-3">
+        <div className="col-md-6 col-lg-3" style={{marginLeft:'50px'}}>
           <div className="card h-100 shadow-sm border-0">
             <img src={workshop3} className="card-img-top" alt="Parenting Skills Training" />
             <div className="card-body">
@@ -50,7 +49,7 @@ const Workshops = () => {
         </div>
 
         {/* Workshop 4 */}
-        <div className="col-md-6 col-lg-3">
+        <div className="col-md-6 col-lg-3" style={{marginLeft:'500px', marginTop:'70px'}}>
           <div className="card h-100 shadow-sm border-0">
             <img src={workshop4} className="card-img-top" alt="Empowerment Seminar" />
             <div className="card-body">

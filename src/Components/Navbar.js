@@ -87,7 +87,7 @@ const CustomNavbar = () => {
                 <div className="custom-dropdown">
                   <Link to="/join" className="dropdown-item">Contact</Link>
                   <Link to="/donate#donate" className="dropdown-item">Donate</Link>
-                  <Link to="/" className="dropdown-item">Visit</Link>
+                  <Link to="/volunteerForm#volunteerForm" className="dropdown-item">Volunteer With Us</Link>
                 </div>
               </div>
             </Nav>
